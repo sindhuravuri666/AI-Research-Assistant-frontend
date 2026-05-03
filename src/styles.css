@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: dark;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  min-height: 100vh;
+  margin: 0;
   font-family:
     Inter,
     ui-sans-serif,
@@ -16,6 +20,8 @@ body {
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
 }
 
 button,
